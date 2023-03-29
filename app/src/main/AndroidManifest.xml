@@ -12,6 +12,33 @@
         android:theme="@style/Theme.Miercoles"
         tools:targetApi="31">
         <activity
+            android:name=".Spidi"
+            android:exported="false" />
+        <activity
+            android:name=".Orgaspidi"
+            android:exported="false" />
+        <activity
+            android:name=".Orgadead"
+            android:exported="false" />
+        <activity
+            android:name=".Orgaloki"
+            android:exported="false" />
+        <activity
+            android:name=".Loki"
+            android:exported="false" />
+        <activity
+            android:name=".Enespidi"
+            android:exported="false" />
+        <activity
+            android:name=".Enedead"
+            android:exported="false" />
+        <activity
+            android:name=".Eneloki"
+            android:exported="false" />
+        <activity
+            android:name=".Deadpool"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

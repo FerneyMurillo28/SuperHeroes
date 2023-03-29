@@ -1,5 +1,6 @@
 package com.example.miercoles
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -9,35 +10,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.principal)
     }
-    fun princi(view: View) {
-        setContentView(R.layout.principal)
+    fun dead(@Suppress("UNUSED_PARAMETER")view:View ){
+        val intent= Intent(this, Deadpool::class.java).apply { }
+            startActivity(intent)
     }
-    fun deadpool(view: View) {
-        setContentView(R.layout.deadpool)
+    fun loki(@Suppress("UNUSED_PARAMETER")view:View ){
+        val intent= Intent(this, Loki::class.java).apply { }
+            startActivity(intent)
     }
-    fun spidi(view: View) {
-        setContentView(R.layout.spidi)
-    }
-    fun loki(view: View) {
-        setContentView(R.layout.loki)
-    }
-    fun enemidead(view: View) {
-        setContentView(R.layout.enemigodead)
-    }
-    fun orgadead(view: View) {
-        setContentView(R.layout.organizaciondead)
-    }
-    fun enemispidi(view: View) {
-        setContentView(R.layout.enespidi)
-    }
-    fun orgaspid(view: View) {
-        setContentView(R.layout.orgaspidi)
-    }
-    fun enemiloki(view: View) {
-        setContentView(R.layout.eneloki)
-    }
-    fun orgaloki(view: View) {
-        setContentView(R.layout.orgaloki)
+    fun spidi(@Suppress("UNUSED_PARAMETER")view:View ){
+        val intent= Intent(this, Spidi::class.java).apply { }
+            startActivity(intent)
     }
 }
 
